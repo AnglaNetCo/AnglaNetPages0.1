@@ -1,0 +1,15 @@
+﻿span {
+    padding: 10px;
+    background-color: lightskyblue;
+    text-decoration: none;
+    color: mediumblue;
+    margin-top: 20px;
+}
+
+span:hover {
+    background-color: powderblue;
+}
+
+span.selected {
+    background-color: red;
+}

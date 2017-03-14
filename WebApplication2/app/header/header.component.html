@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>Добро пожаловать {{name}}!</h1>
+    <label>Введите имя:</label>
+    <input [(ngModel)]="name" placeholder="name">
+
+    <header>
+        <span (click)="select(1)" [ngClass]="{selected: selected === 1}">Tasks</span>
+        <span (click)="select(2)" [ngClass]="{selected: selected === 2}">Репетитор</span>
+        <span (click)="select(3)" [ngClass]="{selected: selected === 3}">Упражнения</span>
+        <span (click)="select(4)" [ngClass]="{selected: selected === 4}">Материалы</span>
+        <span (click)="select(5)" [ngClass]="{selected: selected === 5}">Лига</span>
+        <span (click)="select(6)" [ngClass]="{selected: selected === 6}">Словарь</span>
+    </header>
+</body>
+</html>
